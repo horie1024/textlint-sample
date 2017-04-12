@@ -1,0 +1,16 @@
+{
+  "name": "textlint-sample",
+  "version": "1.0.0",
+  "description": "Code sample of textlint",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "horie1024",
+  "license": "MIT",
+  "dependencies": {
+    "textlint": "^7.4.0",
+    "textlint-rule-preset-ja-technical-writing": "^0.1.3"
+  }
+}
