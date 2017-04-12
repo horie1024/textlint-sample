@@ -12,7 +12,7 @@ Sample to execute [textlint](https://github.com/textlint/textlint) from code.
 npm install
 ```
 
-### Requirements:
+**Requirements**:
 
 - Node.js 6.9.1+
 
