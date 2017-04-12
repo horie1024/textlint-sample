@@ -2,7 +2,6 @@ const TextLintEngine = require("textlint").TextLintEngine;
 
 const engine = new TextLintEngine({
     rulePaths: [
-      "node_modules/textlint-rule-preset-jtf-style",
       "node_modules/textlint-rule-preset-ja-technical-writing"
     ]
 });
