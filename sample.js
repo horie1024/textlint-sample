@@ -1,9 +1,7 @@
 const TextLintEngine = require("textlint").TextLintEngine;
 
 const engine = new TextLintEngine({
-    rulePaths: [
-      "node_modules/textlint-rule-preset-ja-technical-writing"
-    ]
+  configFile: "config/.textlintrc"
 });
 
 engine.executeOnText("# test!!").then(results => {
